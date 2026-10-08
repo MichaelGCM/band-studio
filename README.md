@@ -1,12 +1,81 @@
-# Blot Annotator — installers
+# Blot ANnotation Designer studio - release page
+Built installers for Band studio, a desktop tool (macOS, Windows) for analyzing, arranging and annotating western blot and DNA gel images into publication-ready figures.  Get the latest build from the [Releases page](https://github.com/MichaelGCM/blot-annotator-releases/releases).
+Simple 3-step installation guide at the bottom.
 
-Built installers for Blot Annotator, a desktop tool for arranging and annotating western blot and DNA gel images into publication-ready figures.  Get the latest build from the [Releases page](https://github.com/MichaelGCM/blot-annotator-releases/releases).
+
+## What it does
+
+- **Imports** Leica `.lif`, Bio-Rad `.scn`, TIFF and PNG, including 16-bit data. Measurements
+  always run on the original full-bit-depth pixels, never on the 8-bit display copy.
+- **Lays out a figure as a stack of rows.** Each image row has its own crop, rotation,
+  levels/gamma and invert; text rows sit between them. Rows can be added, reordered and
+  deleted, and the canvas sizes itself to the content.
+- **Annotates** with a condition table above the lanes (text, +/− symbols, graduated
+  wedges, spanning lines), antibody labels, named bands, bracketed size ranges, frames and
+  tick marks. All figure text supports bold, italic, sub/superscript, Greek, and a chosen font.
+- **Calibrates sizes** from a ladder image (kDa, bp, kb or nt) with a log-linear fit, and
+  estimates the size of any band you click. Ladder presets are saved and reused.
+- **Measures bands.** Lane boxes can be sheared or arced to follow tilted or smiling
+  lanes. Each lane gives an intensity profile with rolling-disc background subtraction,
+  click-a-peak or threshold-based band detection, and area under the curve. It warns about
+  saturated bands and bands too close to the lane edge.
+- **Quantifies** with a pipeline of ratio steps (lane to lane, row to row, band to band,
+  normalisation to a reference). Replicate images of the same row can be attached for
+  measurement only. Results are shown as mean ± SD/SEM with one-way ANOVA and Dunnett or
+  Tukey post-hoc tests, and are exported to CSV.
+- **Puts the numbers on the figure** as text or bars under each lane.
+- **Exports** TIFF, PNG, JPEG and PDF at a chosen DPI, and SVG with live text for further
+  editing in Illustrator or Inkscape.
+
+## Workflow
+
+1. **Start a session** from the welcome dialog: blank, from a saved settings preset, or
+   using an earlier session as a template.
+2. **Add rows** and drop an image onto each. Pick the region of interest and adjust
+   rotation and levels. A second dropped file can become the row's ladder image (a filename
+   rule decides which is which), and filename rules can fill condition headers too.
+3. **Fill in the condition table** (or paste it from Excel) and the antibody labels.
+4. **Size calibration tab:** click the ladder bands once; size labels then appear beside
+   the row and any band can be sized.
+5. **Measure bands tab:** draw the lane boxes, set the background disc, and pick the bands
+   on each lane's profile.
+6. **Quantify tab:** define the ratios, choose the reference lane or row, and decide which
+   results appear on the figure.
+7. **Export.** The live preview in the left pane always shows exactly what will be written.
+
+The session (`.blotsession`) stores the original images and every setting. Reopening it
+and exporting again gives a pixel-identical file, and an export never changes the session.
+Edit > Undo covers every step.
+
+## How it compares
+
+Lab software for blots usually falls into one of two groups. Imager suites (Bio-Rad Image
+Lab, LI-COR Empiria/Image Studio, Thermo iBright Analysis, Azure AzureSpot) and general tools
+(ImageJ/Fiji's Gel Analyzer, GelAnalyzer, TotalLab) measure bands but produce a report or a
+spreadsheet, not a figure. Figure tools (Illustrator, PowerPoint, FigureJ) make figures but
+know nothing about lanes, ladders or intensities. The usual result is a chain of screenshots,
+copied numbers and hand-placed labels that nobody can reproduce six months later.
+
+*Band* keeps both halves in one file:
+
+- **One source of truth.** The values under a lane are computed from the lane boxes you
+  drew on the image in that figure. If the image or the boxes change, the measurement is
+  flagged as stale rather than silently mismatching the picture.
+- **Reproducible by construction.** Same session, same settings, same output, down to the
+  pixel. The original image files are kept untouched inside the session.
+- **Vendor-neutral.** It reads files from more than one imager and runs on a normal laptop
+  without an instrument licence.
+- **Figure-aware annotation.** Condition tables, size labels from a fitted ladder and
+  per-lane values are laid out together, so they line up with the lanes without manual
+  nudging.
+- **Physical units throughout.** Sizes, gaps and line widths are set in mm, pt or px and
+  resolved against each image's own calibration.
 
 ## Installing on macOS
 
 Download the release asset matching your Mac from the
 [Releases page](https://github.com/MichaelGCM/blot-annotator-releases/releases), open it, and drag
-**Blot Annotator** onto the **Applications** folder.
+**Band studio** onto the **Applications** folder.
 
 **Check the architecture in the filename.** Builds are per-architecture, not universal:
 `BlotAnnotator-<version>-arm64.dmg` is for Apple Silicon (M1 and later) and
