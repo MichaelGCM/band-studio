@@ -3,6 +3,7 @@ Built installers for Band studio, a desktop tool (macOS, Windows) for analyzing,
 Simple 3-step installation guide at the bottom.
 
 
+<!-- BAND-SHARED:START -->
 ## What it does
 
 - **Imports** Leica `.lif`, Bio-Rad `.scn`, TIFF and PNG, including 16-bit data. Measurements
@@ -70,6 +71,7 @@ copied numbers and hand-placed labels that nobody can reproduce six months later
   nudging.
 - **Physical units throughout.** Sizes, gaps and line widths are set in mm, pt or px and
   resolved against each image's own calibration.
+<!-- BAND-SHARED:END -->
 
 ## Installing on macOS
 
