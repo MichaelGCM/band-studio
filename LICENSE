@@ -1,0 +1,53 @@
+# Band — End-User Licence Agreement
+
+Copyright (c) 2026 Michael Pries. All rights reserved.
+
+"Band" means the Band application software in binary form, including its updates and
+documentation (the "Software"). The Software's source code is not licensed to you.
+
+## 1. Licence
+Michael Pries ("the Author") grants you a free, non-exclusive, non-transferable, worldwide
+licence to install and use the Software on any number of your own computers, for any purpose,
+including academic, commercial and publication work.
+
+## 2. Your outputs
+You own the figures, images, session files and exports you create with Band. The Author claims
+no rights in them, and no attribution is required (citing Band is appreciated; see the
+citation information published with each release).
+
+## 3. Restrictions
+Except as the law allows, you may not: (a) sell, rent, lease or sublicense the Software;
+(b) remove copyright or licence notices.
+
+## 4. Redistribution
+You may share copies of the Software, including modified copies, for example with colleagues
+in your lab or by hosting it for others to download, as long as you don't do any of the
+things Section 3 forbids.
+
+## 5. Third-party components
+The Software includes third-party components under their own licences, listed in
+THIRD_PARTY_NOTICES. Those licences apply to those components and are not narrowed by this
+Agreement.
+
+## 6. Updates and network use
+The Software checks GitHub's public releases API for newer versions. This is an anonymous,
+unauthenticated HTTP request that sends no personal data and installs nothing automatically;
+you choose whether to download and install any update it finds.
+
+## 7. No warranty
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. You are responsible for
+checking that figures and quantification are correct before publishing or relying on them.
+
+## 8. Limitation of liability
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE AUTHOR IS NOT LIABLE FOR ANY INDIRECT, INCIDENTAL
+OR CONSEQUENTIAL DAMAGES, OR LOSS OF DATA, ARISING FROM USE OF THE SOFTWARE. Nothing here
+limits liability that cannot be limited by law.
+
+## 9. Termination
+This licence ends automatically if you breach it. You may end it at any time by deleting the
+Software.
+
+## 10. General
+If a provision is unenforceable, the rest remains in force. This Agreement is the entire
+agreement about the Software.

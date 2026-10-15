@@ -1,0 +1,23 @@
+# Mirrored to band-studio by .github/workflows/mirror-to-band-studio.yml on every push to main.
+cff-version: 1.2.0
+message: "If you used Band to make figures or quantify bands in your work, please cite it."
+type: software
+title: "Band: publication-ready western blot and gel figures"
+abstract: >-
+  Band is a desktop application for arranging, annotating, size-calibrating and
+  quantifying western blot and DNA gel images, exporting reproducible
+  publication-ready figures.
+authors:
+  - family-names: Pries
+    given-names: Michael
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO
+version: "0.1.16"
+# doi: 10.5281/zenodo.TODO   # fill in after the first Zenodo release
+repository-code: "https://github.com/MichaelGCM/band-studio"
+license-url: "https://github.com/MichaelGCM/band-studio/blob/main/LICENSE"
+keywords:
+  - western blot
+  - gel electrophoresis
+  - scientific figures
+  - image annotation
+  - densitometry

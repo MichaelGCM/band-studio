@@ -57,7 +57,7 @@ spreadsheet, not a figure. Figure tools (Illustrator, PowerPoint, FigureJ) make 
 know nothing about lanes, ladders or intensities. The usual result is a chain of screenshots,
 copied numbers and hand-placed labels that nobody can reproduce six months later.
 
-*Band* keeps both halves in one file:
+Band keeps both halves in one file:
 
 - **One source of truth.** The values under a lane are computed from the lane boxes you
   drew on the image in that figure. If the image or the boxes change, the measurement is
