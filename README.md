@@ -1,11 +1,28 @@
-# Blot ANnotation Designer studio - release page
+<!-- BAND-HERO:START -->
+# Band: publication-ready blot figures
+
+**Faster than PowerPoint, better looking than Illustrator.**
+Turn western blot and DNA gel images into publication-ready figures, with calibrated
+ladders, condition tables and band quantification in the same session.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23434464.svg)](https://doi.org/10.5281/zenodo.23434464)
 
-Built installers for Band studio, a desktop tool (macOS, Windows) for analyzing, arranging and annotating western blot and DNA gel images into publication-ready figures.  Get the latest build from the [Releases page](https://github.com/MichaelGCM/blot-annotator-releases/releases).
-Simple 3-step installation guide at the bottom.
+[Download for macOS or Windows](https://github.com/MichaelGCM/band-studio/releases/latest) · [Cite Band](#citing-band)
 
-![A figure exported from Band](docs/images/exported-figure.png)
+![A figure exported from Band: condition table, blots, size labels and per-lane quantification](docs/images/exported-figure.png)
+
+- 🧪 Imports Leica `.lif`, Bio-Rad `.scn`, TIFF and PNG (16-bit preserved)
+- 📏 Ladder-calibrated kDa / bp sizes
+- 📊 Band quantification with ANOVA + Dunnett/Tukey, CSV export
+- 🖨️ Export TIFF/PNG/JPEG/PDF at any DPI, or editable SVG
+- 🔁 Reopen and re-export → pixel-identical file
+
+Band is a desktop app (macOS, Windows) that covers the stretch between the imager and the
+manuscript: crop and arrange the images, label them, calibrate sizes against a ladder,
+quantify band intensities, and export a figure whose numbers come from the same session as
+its pictures.
+<!-- BAND-HERO:END -->
+
 <!-- BAND-SHARED:START -->
 ## What it does
 
@@ -100,6 +117,11 @@ Ratio pipeline for quantification.
 The SVG export keeps live text and one named layer per row, so it opens for further editing in Illustrator, Inkscape or Affinity.
 
 ![SVG export opened in Affinity](docs/images/svg-in-affinity.png)
+
+## Citing Band
+
+If Band helped with a figure in your paper, please cite it. See `CITATION.cff`, or use
+GitHub's "Cite this repository" button.
 
 <!-- BAND-SHARED:END -->
 
