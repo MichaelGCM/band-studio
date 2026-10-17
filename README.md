@@ -74,6 +74,33 @@ Band keeps both halves in one file:
   nudging.
 - **Physical units throughout.** Sizes, gaps and line widths are set in mm, pt or px and
   resolved against each image's own calibration.
+
+## Screenshots
+
+The main window: live preview, row editor and figure settings.
+
+![Band main window](docs/images/preview.png)
+
+Condition table above the lanes.
+
+![Conditions table tab](docs/images/conditions-table.png)
+
+Size calibration from a ladder image.
+
+![Size calibration tab](docs/images/size-calibration.png)
+
+Lane boxes, intensity profile and band detection.
+
+![Measure bands tab](docs/images/measure-bands.png)
+
+Ratio pipeline for quantification.
+
+![Quantify tab](docs/images/quantify.png)
+
+The SVG export keeps live text and one named layer per row, so it opens for further editing in Illustrator, Inkscape or Affinity.
+
+![SVG export opened in Affinity](docs/images/svg-in-affinity.png)
+
 <!-- BAND-SHARED:END -->
 
 ## Installing on macOS
