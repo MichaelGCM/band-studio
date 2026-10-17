@@ -11,8 +11,8 @@ authors:
   - family-names: Pries
     given-names: Michael
     # orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO
-version: "0.1.16"
-# doi: 10.5281/zenodo.TODO   # fill in after the first Zenodo release
+version: "0.1.20"
+doi: 10.5281/zenodo.23434464
 repository-code: "https://github.com/MichaelGCM/band-studio"
 license-url: "https://github.com/MichaelGCM/band-studio/blob/main/LICENSE"
 keywords:
