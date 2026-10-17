@@ -5,7 +5,7 @@
 Built installers for Band studio, a desktop tool (macOS, Windows) for analyzing, arranging and annotating western blot and DNA gel images into publication-ready figures.  Get the latest build from the [Releases page](https://github.com/MichaelGCM/blot-annotator-releases/releases).
 Simple 3-step installation guide at the bottom.
 
-
+![A figure exported from Band](docs/images/exported-figure.png)
 <!-- BAND-SHARED:START -->
 ## What it does
 
