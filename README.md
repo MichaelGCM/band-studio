@@ -1,4 +1,7 @@
 # Blot ANnotation Designer studio - release page
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23434464.svg)](https://doi.org/10.5281/zenodo.23434464)
+
 Built installers for Band studio, a desktop tool (macOS, Windows) for analyzing, arranging and annotating western blot and DNA gel images into publication-ready figures.  Get the latest build from the [Releases page](https://github.com/MichaelGCM/blot-annotator-releases/releases).
 Simple 3-step installation guide at the bottom.
 
